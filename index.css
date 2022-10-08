@@ -3,25 +3,19 @@
   padding: 0;
 }
 
-
-
-
 body{
   background-color: rgb(9, 9, 9);
   zoom: 100%;
-
 }
 .container {
     position: relative;
     text-align: center;
-    color: white;
-   
+    color: white;  
   }
   html {
       scroll-behavior: smooth;
   }
  
-  
   #a{
     font-size: 5.2em;
     position: absolute;
@@ -38,26 +32,24 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Permanent Marker', cursive;
-font-family: 'PT Sans Narrow', sans-serif;
-letter-spacing: 2px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 2px;
   }
-
 
   .container2 {
     position: relative;
     text-align: center;
     color: rgb(255, 254, 254);
     border: black;
- border-style: dashed;  
- border-radius: 30px;
- 
+    border-style: dashed;  
+    border-radius: 30px;
   }
   
   #ab{
     color: blanchedalmond;
     font-family: 'Calligraffitti', cursive;
-font-family: 'Merienda One', cursive;
-font-size: 40px;
+    font-family: 'Merienda One', cursive;
+    font-size: 40px;
   }
 
   .iconDetails {
@@ -71,7 +63,7 @@ font-size: 40px;
     width: 100px;
     /* height: 50px; */
     top: 40px;
-   left: 220px;
+    left: 220px;
     position: relative;
     animation-delay: 5s;
     animation: mymove 5s ;
@@ -90,46 +82,39 @@ font-size: 40px;
         to {left: 220px;}
       }
 
-
-   .container3 {
+ .container3 {
     position: relative;
     text-align: center;
     /* color: rgb(255, 254, 254);
     border: rgb(255, 255, 255); */
  /* border-style: dashed;   */
- border-radius: 30px;
- top: 200%;
- left: 40%;
- width: 42em;
- height: 12em;
- font-size: 20px;
- text-align: left;
- font-family: 'Merienda One', cursive;
- 
+    border-radius: 30px;
+    top: 200%;
+    left: 40%;
+    width: 42em;
+    height: 12em;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Merienda One', cursive;
   }
-
 
   .container4 {
     position: relative;
     text-align: center;
     color: rgb(255, 254, 254);
-
     top: 200%;
     /* border: black;
  border-style: dashed;  
  border-radius: 30px; */
- 
   }
   
   #ab{
     color: blanchedalmond;
     font-family: 'Calligraffitti', cursive;
-font-family: 'Merienda One', cursive;
-font-size: 40px;
-letter-spacing: 14px;
+    font-family: 'Merienda One', cursive;
+    font-size: 40px;
+    letter-spacing: 14px;
   }
-
-
 
   #size1{
     width: 22em;
@@ -139,113 +124,86 @@ letter-spacing: 14px;
     left: 10%;
 }
  
-  #ab1{
-    color: blanchedalmond;
-    font-family: 'Calligraffitti', cursive;
-font-family: 'Merienda One', cursive;
-font-size: 40px;
-letter-spacing: 14px;
-  }
+ #ab1{
+   color: blanchedalmond;
+   font-family: 'Calligraffitti', cursive;
+   font-family: 'Merienda One', cursive;
+   font-size: 40px;
+   letter-spacing: 14px;
+ }
   
-  #ab2{
-    color: blanchedalmond;
-    font-family: 'Calligraffitti', cursive;
-font-family: 'Merienda One', cursive;
-font-size: 40px;
-letter-spacing: 14px;
-  }
+ #ab2{
+  color: blanchedalmond;
+  font-family: 'Calligraffitti', cursive;
+  font-family: 'Merienda One', cursive;
+  font-size: 40px;
+  letter-spacing: 14px;
+ }
   
-
-  #size2{
-    width: 22em;
-    height: 14em;
-    position: absolute;
-    top: 34%;
-    left: 10%;
-}
-
-
-
+ #size2{
+  width: 22em;
+  height: 14em;
+  position: absolute;
+  top: 34%;
+  left: 10%;
+ }
 
 .container5 {
   position: relative;
   text-align: center;
   color: rgb(255, 254, 254);
-
   top: 200%;
-
 }
-
 footer{
   background-image: linear-gradient(rgb(9, 9, 9), rgb(148, 148, 144));
 }
 header{
   background-image: linear-gradient(rgb(148, 148, 144), rgb(9, 9, 9));
-}
-
-
-
-
     .shadow {
       filter: drop-shadow(3px 3px 6px #ff00ff)
-       drop-shadow(-3px -3px 20px #ff00ff);
-      
+       drop-shadow(-3px -3px 20px #ff00ff); 
     }
-
-
-
     .glow {
       font-size: 80px;
       color: #fff;
       text-align: center;
       text-shadow: 0 0 10px #fff, 0 0 15px rgb(255, 0, 0);
       }
-    
       ul{
         list-style-type: none;
        float: right;
        margin-top: 0px;
-
       }
      ul li{
         display: inline-block;
         /* margin: 6px; */
       }
 
-
 ul li a{
   text-decoration: none;
   color:#61bcf0;
-  /* background-color: black; */
+  background-color: black;
   padding: 5px 15px;
   border: 1px solid #fff;
- 
-  transition: 0.5s ease-in-out;
-   
+  transition: 0.5s ease-in-out;  
 }
-
-
 ul li a:hover{
   background-color:#61bcf0;
-   
   color: rgb(0, 0, 0);
 }
-/* ul li:after{
+ul li:after{
   background-color:#61bcf0;
-
   color: rgb(0, 0, 0);
-} */
-/* 
+} 
 .main {
   overflow: hidden;
   background-color: rgba(51, 51, 51, 0.116);
   position:fixed;
-} */
+}
 
 .main {
-  
   position: fixed; /* Set the navbar to fixed position */
-  /* bottom: 0; Position the navbar at the bottom of the page */
+  bottom: 0; Position the navbar at the bottom of the page */
   width: 100%; /* Full width */
   z-index: +1;
   overflow: hidden;
@@ -253,9 +211,6 @@ ul li a:hover{
   justify-content: space-between;
   
 }
-
-
-
 
 #box{
     height: 50px;
